@@ -24,7 +24,6 @@
 		"regex",
 		"surrogate"
 	],
-	"dependencies": {},
 	"devDependencies": {
 		"ava": "*",
 		"xo": "*"
