@@ -33,9 +33,9 @@ Type: `Object`
 ##### exact
 
 Type: `boolean`<br>
-Default: `false` *(Matches any astral code points in a string)*
+Default: `false` *(Matches any astral symbols in a string)*
 
-Only match an exact string. Useful with `RegExp#test()` to check if a string is a scoped package name.
+Only match an exact string. Useful with `RegExp#test()` to check if a string is a astral symbol.
 
 
 ## License
