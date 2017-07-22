@@ -1,6 +1,6 @@
 # astral-regex [![Build Status](https://travis-ci.org/kevva/astral-regex.svg?branch=master)](https://travis-ci.org/kevva/astral-regex)
 
-> Regular expression for matching astral symbols
+> Regular expression for matching [astral symbols](https://everything2.com/title/astral+plane)
 
 
 ## Install
