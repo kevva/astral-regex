@@ -1,5 +1,5 @@
-import {expectType} from 'tsd-check';
-import astralRegex from '.';
+import {expectType} from 'tsd';
+import astralRegex = require('.');
 
 expectType<RegExp>(astralRegex());
 expectType<RegExp>(astralRegex(true));
