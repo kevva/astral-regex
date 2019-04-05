@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from '.';
+import astralRegex from '.';
 
 const matches = [
 	'💩',
@@ -22,16 +22,16 @@ const nonMatches = [
 
 test('matches', t => {
 	for (const x of matches) {
-		t.true(m({exact: true}).test(x));
+		t.true(astralRegex({exact: true}).test(x));
 	}
 
 	for (const x of matches) {
-		t.is((m().exec(`foo ${x} bar`) || [])[0], x);
+		t.is((astralRegex().exec(`foo ${x} bar`) || [])[0], x);
 	}
 });
 
 test('non matches', t => {
 	for (const x of nonMatches) {
-		t.false(m({exact: true}).test(x));
+		t.false(astralRegex({exact: true}).test(x));
 	}
 });
