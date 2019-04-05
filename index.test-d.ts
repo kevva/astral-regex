@@ -2,4 +2,4 @@ import {expectType} from 'tsd';
 import astralRegex = require('.');
 
 expectType<RegExp>(astralRegex());
-expectType<RegExp>(astralRegex(true));
+expectType<RegExp>(astralRegex({exact: true}));
